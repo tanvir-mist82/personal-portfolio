@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #080808;
     color: whitesmoke;
@@ -394,7 +398,7 @@ nav .fas{
 /* Now its turn to make responsive */
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/black.png);
+        background-image: url(images/phone-cover.jpeg);
     }
 
     .header-text{
@@ -462,4 +466,11 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
+}
+
+
+#msg{
+    color: #61b752;
+    margin-top: -30px;
+    display: block;
 }
