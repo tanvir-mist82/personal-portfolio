@@ -407,7 +407,12 @@ nav .fas{
     }
 
     .header-text h1{
+        color: red;
         font-size: 30px;
+    }
+
+    .header-text p{
+        color: #ff004f;
     }
 
     nav .fas{
